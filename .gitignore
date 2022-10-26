@@ -1,0 +1,5 @@
+/.vscode
+/media/*.tex.pdf
+/media/*.mmd.pdf
+/media/*.svg.pdf
+/dist/*

@@ -1,0 +1,90 @@
+<style>
+    html {
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    body {
+        max-width: unset;
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    table {
+        display: table;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    thead,
+    tbody>tr>td:first-child,
+    thead>tr>th:first-child {
+        position: sticky;
+    }
+
+    thead {
+        top: 0;
+        z-index: 100;
+        background: #fff;
+    }
+
+    thead>tr>th:first-child {
+        left: 0;
+        background: #fff;
+    }
+
+    tbody>tr>td:first-child {
+        left: 0;
+        z-index: 10;
+    }
+
+    tbody>tr:nth-child(2n)>td {
+        background: #fff;
+    }
+
+    tbody>tr:nth-child(2n + 1)>td {
+        background: #eee;
+    }
+
+    table,
+    thead,
+    tbody,
+    tfoot,
+    tr,
+    td,
+    th {
+        border: none;
+    }
+
+    body>p,
+    section>p,
+    .sticky>p {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    ol>li {
+        padding-right: 0.5em;
+    }
+
+    ol>li>p {
+        margin: 0;
+    }
+
+    .author {
+        display: none;
+    }
+
+    #title-block-header,
+    #footnotes,
+    .sticky {
+        position: sticky;
+        left: 0;
+    }
+</style>

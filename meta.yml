@@ -1,0 +1,18 @@
+title: ÖV taugliche Tagesskitouren ab Aarau
+author:
+  - Oliver Fabel
+colorlinks: true
+linkcolor: blue
+urlcolor: blue
+lang: de
+papersize: a3
+geometry:
+  - landscape
+  - top=10mm
+  - left=10mm
+  - right=10mm
+  - bottom=10mm
+documentclass: article
+pagestyle: empty
+header-includes:
+  - \renewcommand{\maketitle}{}
