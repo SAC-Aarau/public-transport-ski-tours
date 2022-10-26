@@ -18,3 +18,4 @@ header-includes:
   - \renewcommand{\maketitle}{}
 include-before:
   - \hypersetup{bookmarksdepth=-2}
+  - \hypersetup{pdfpagemode=UseNone}
