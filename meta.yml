@@ -16,3 +16,5 @@ documentclass: article
 pagestyle: empty
 header-includes:
   - \renewcommand{\maketitle}{}
+include-before:
+  - \hypersetup{bookmarksdepth=-2}
