@@ -70,6 +70,8 @@ $(WEBPAGE_HTML): $(CONFIGS) $(DOCUMENT_PDF) $(MMD_PDF_FILES) $(TEX_PDF_FILES) $(
 		--output=$(WEBPAGE_HTML) \
 		$(INTRO) $(TABLE) $(DISCLAIMER_WEB)
 	sed -i -E 's@\{publish-date\}@$(DATE)@' $(WEBPAGE_HTML)
+publish: clean all
+	$(ROOT)/publish.sh $(DIST)
 init:
 	mkdir -p $(TEMP)
 	mkdir -p $(DIST)
