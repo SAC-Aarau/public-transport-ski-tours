@@ -5,6 +5,7 @@ DATE=$(shell date '+%-d. %B %Y')
 DATE_ISO=$(shell date --iso-8601=date)
 
 PDFLATEX=pdflatex
+XELATEX=xelatex
 PANDOC=pandoc
 MMDC=mmdc
 INKSCAPE=inkscape
@@ -56,8 +57,8 @@ $(DOCUMENT_PDF): $(CONFIGS) $(MMD_PDF_FILES) $(TEX_PDF_FILES) $(SVG_PDF_FILES) $
 		'$(TITLE)' '$(TABLE)' '$(DISCLAIMER_DOC)'
 	cat $(DOCUMENT_TEX) | sed 's@\\\\@\\\\ \\midrule()@' > $(DOCUMENT_TEX).temp
 	tac $(DOCUMENT_TEX).temp | sed -E '0,/\\midrule\(\)/{s@\\midrule\(\)@@}' | tac > $(DOCUMENT_TEX)
-	xelatex -output-directory $(TEMP) $(DOCUMENT_TEX)
-	xelatex -output-directory $(TEMP) $(DOCUMENT_TEX)
+	$(XELATEX) -output-directory $(TEMP) $(DOCUMENT_TEX)
+	$(XELATEX) -output-directory $(TEMP) $(DOCUMENT_TEX)
 	mv $(TEMP)/template.pdf $(DOCUMENT_PDF)
 $(WEBPAGE_HTML): $(CONFIGS) $(DOCUMENT_PDF) $(MMD_PDF_FILES) $(TEX_PDF_FILES) $(SVG_PDF_FILES) $(INTRO) $(TABLE) $(DISCLAIMER_WEB) $(STYLES)
 	$(PANDOC) \
