@@ -65,7 +65,6 @@ $(WEBPAGE_HTML): $(CONFIGS) $(DOCUMENT_PDF) $(MMD_PDF_FILES) $(TEX_PDF_FILES) $(
 		--strip-comments \
 		--section-divs \
 		--include-in-header='$(STYLES)' \
-		--metadata author='' \
 		--metadata date-meta='$(DATE_ISO)' \
 		--output=$(WEBPAGE_HTML) \
 		$(INTRO) $(TABLE) $(DISCLAIMER_WEB)
