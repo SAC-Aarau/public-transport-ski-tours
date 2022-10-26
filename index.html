@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Oliver Fabel" />
+  <meta name="dcterms.date" content="2022-10-26" />
+  <title>ÖV taugliche Tagesskitouren ab Aarau</title>
+  <style>
+html {
+line-height: 1.5;
+font-family: Georgia, serif;
+font-size: 20px;
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 1em;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: blue;
+}
+a:visited {
+color: blue;
+}
+img {
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+font-size: 85%;
+margin: 0;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style>
+html {
+overflow: hidden;
+}
+a {
+text-decoration: none;
+}
+body {
+max-width: unset;
+width: 100vw;
+height: 100vh;
+overflow: auto;
+box-sizing: border-box;
+padding: 0;
+}
+table {
+display: table;
+width: 100%;
+white-space: nowrap;
+}
+thead,
+tbody>tr>td:first-child,
+thead>tr>th:first-child {
+position: sticky;
+}
+thead {
+top: 0;
+z-index: 100;
+background: #fff;
+}
+thead>tr>th:first-child {
+left: 0;
+background: #fff;
+}
+tbody>tr>td:first-child {
+left: 0;
+z-index: 10;
+}
+tbody>tr:nth-child(2n)>td {
+background: #fff;
+}
+tbody>tr:nth-child(2n + 1)>td {
+background: #eee;
+}
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+border: none;
+}
+body>p,
+section>p,
+.sticky>p {
+padding-left: 0.5em;
+padding-right: 0.5em;
+}
+ol>li {
+padding-right: 0.5em;
+}
+ol>li>p {
+margin: 0;
+}
+.author {
+display: none;
+}
+#title-block-header,
+#footnotes,
+.sticky {
+position: sticky;
+left: 0;
+}
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+
+<header id="title-block-header">
+<h1 class="title">ÖV taugliche Tagesskitouren ab Aarau</h1>
+<p class="author">Oliver Fabel</p>
+</header>
+<div class="sticky">
+<p>Die folgende Tabelle ist auch <a href="./oev-skitouren-ab-aarau.pdf">als PDF verfügbar</a>. Anpassungen
+und Ergänungen sind sehr erwünscht können <a href="https://sac-aarau.ch/oev-eintagesskitouren.html">mit diesem
+Formular</a> kommuniziert werden. Ein Protokoll aller Mutationen findet
+sich <a href="https://github.com/SAC-Aarau/public-transport-ski-tours/blob/master/CHANGELOG.md">auf
+dieser Seite</a>.</p>
+</div>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 12%" />
+<col style="width: 4%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Tourenziel</strong></th>
+<th style="text-align: center;"><strong>Start</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></th>
+<th style="text-align: center;"><strong>Ziel</strong><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></th>
+<th style="text-align: center;"><strong>Route</strong></th>
+<th style="text-align: center;"><strong>Schwierigkeit</strong><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></th>
+<th style="text-align: center;"><strong>Exposition</strong></th>
+<th style="text-align: left;"><strong>Haltestelle</strong></th>
+<th style="text-align: center;"><strong>Dauer</strong><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></th>
+<th style="text-align: center;"><strong>Umsteigen</strong><a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></th>
+<th style="text-align: center;"><strong>Zeitdruck</strong><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></th>
+<th style="text-align: left;"><strong>Bemerkung</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Brisen</td>
+<td style="text-align: center;">1154</td>
+<td style="text-align: center;">2403</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/brisen-242/skitouren/von-niederrickenbach-via-steinalper-jochli-6373/">523a</a></td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">NE, NW</td>
+<td style="text-align: left;">Niederrickenbach Station</td>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Luftseilbahn akzeptiert GA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Glattgrat</td>
+<td style="text-align: center;">1154</td>
+<td style="text-align: center;">2191</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/6211/ski_tour/6372">522</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">NW</td>
+<td style="text-align: left;">Niederrickenbach Station</td>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Luftseilbahn akzeptiert GA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Risetenstock</td>
+<td style="text-align: center;">1154</td>
+<td style="text-align: center;">2290</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1508/ski_tour/6370">521b</a></td>
+<td style="text-align: center;">WS+</td>
+<td style="text-align: center;">W, NW</td>
+<td style="text-align: left;">Niederrickenbach Station</td>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Luftseilbahn akzeptiert GA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rigi Scheidegg</td>
+<td style="text-align: center;">1060</td>
+<td style="text-align: center;">1658</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/8726/ski_tour/3646">102b</a></td>
+<td style="text-align: center;">WS</td>
+<td style="text-align: center;">SE, S, SW</td>
+<td style="text-align: left;">Vitznau</td>
+<td style="text-align: center;">1.75</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rigi Hoflue</td>
+<td style="text-align: center;">1060</td>
+<td style="text-align: center;">1699</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/8726/ski_tour/3604">102a</a>
+<a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/8726/ski_tour/3646">102b</a>
+<a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1496/ski_tour/3653">103</a></td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">NE, NW, E, SE, S, SW</td>
+<td style="text-align: left;">Vitznau</td>
+<td style="text-align: center;">1.75</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+++</td>
+<td style="text-align: left;">Via <em>Rigi Burggeist</em> zum
+<em>Gätterlipass</em>, bei guter Schneelage Abfahrt nach
+<em>Lauerz</em>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rigi Scheidegg</td>
+<td style="text-align: center;">457</td>
+<td style="text-align: center;">1658</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/8726/ski_tour/3604">102a</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">NE, E</td>
+<td style="text-align: left;">Lauerz, Dorf</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rigi Hoflue</td>
+<td style="text-align: center;">457</td>
+<td style="text-align: center;">1699</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1496/ski_tour/3653">103</a></td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">NE, NW</td>
+<td style="text-align: left;">Lauerz, Dorf</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rigi Kulm</td>
+<td style="text-align: center;">506</td>
+<td style="text-align: center;">1797</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1497/ski_tour/3659">100</a></td>
+<td style="text-align: center;">WS</td>
+<td style="text-align: center;">NE, E, SE</td>
+<td style="text-align: left;">Arth-Goldau</td>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Rigibahn akzeptiert GA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gnipen</td>
+<td style="text-align: center;">506</td>
+<td style="text-align: center;">1566</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/4051/ski_tour/3673">111b</a></td>
+<td style="text-align: center;">WS</td>
+<td style="text-align: center;">S, W, NW</td>
+<td style="text-align: left;">Walchwil</td>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/4051/ski_tour/3674">Abfahrt
+nach Goldau</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Wildspitz</td>
+<td style="text-align: center;">615</td>
+<td style="text-align: center;">1579</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/4050/ski_tour/2975">110b</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">SE</td>
+<td style="text-align: left;">Steinerberg</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pilatus Kulm</td>
+<td style="text-align: center;">452</td>
+<td style="text-align: center;">2105</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1392/ski_tour/6716">300a</a></td>
+<td style="text-align: center;">WS+</td>
+<td style="text-align: center;">SE, S, SW</td>
+<td style="text-align: left;">Alpnach Dorf, Bahnhof</td>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Widderfeld</td>
+<td style="text-align: center;">452</td>
+<td style="text-align: center;">2075</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2210/ski_tour/6405">301</a></td>
+<td style="text-align: center;">ZS-</td>
+<td style="text-align: center;">SE, S, W, NW</td>
+<td style="text-align: left;">Alpnach Dorf, Bahnhof</td>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stäfeliflue</td>
+<td style="text-align: center;">452</td>
+<td style="text-align: center;">1921</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/4140/ski_tour/6717">303</a></td>
+<td style="text-align: center;">WS+</td>
+<td style="text-align: center;">E, SE</td>
+<td style="text-align: left;">Alpnach Dorf, Bahnhof</td>
+<td style="text-align: center;">1.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rägeflüeli</td>
+<td style="text-align: center;">452</td>
+<td style="text-align: center;">1582</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/7656/ski_tour/1759">307</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">NE, E</td>
+<td style="text-align: left;">Eigenthal, Talboden</td>
+<td style="text-align: center;">1.75</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Bei guter Schneelage lohnt sich ein
+Gegenanstieg via <em>Ober Lauelen</em> zur <em>Fräkmüntegg</em> mit
+Abfahrt nach <em>Kriens</em>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/studberg-7844/skitouren/">Studberg</a></td>
+<td style="text-align: center;">452</td>
+<td style="text-align: center;">1602</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/7656/ski_tour/1759">307</a></td>
+<td style="text-align: center;">WS</td>
+<td style="text-align: center;">N, NE, E</td>
+<td style="text-align: left;">Eigenthal, Talboden</td>
+<td style="text-align: center;">1.75</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Bei guter Schneelage lohnt sich ein
+Gegenanstieg via <em>Ober Lauelen</em> zur <em>Fräkmüntegg</em> mit
+Abfahrt nach <em>Kriens</em>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gross Ruchen</td>
+<td style="text-align: center;">999</td>
+<td style="text-align: center;">3137</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/gross-ruchen-1591/skitouren/von-unterschaechen-4580/">820</a></td>
+<td style="text-align: center;">ZS+</td>
+<td style="text-align: center;">E, W, NW</td>
+<td style="text-align: left;">Unterschächen, Post</td>
+<td style="text-align: center;">2.75</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+++</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Wäspen</td>
+<td style="text-align: center;">999</td>
+<td style="text-align: center;">2345</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/waespen-8377/skitouren/von-unterschaechen-durch-das-brunnital-7148/">811b</a></td>
+<td style="text-align: center;">ZS+</td>
+<td style="text-align: center;">SW, W, NW</td>
+<td style="text-align: left;">Unterschächen, Post</td>
+<td style="text-align: center;">2.75</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">++</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zinggen</td>
+<td style="text-align: center;">999</td>
+<td style="text-align: center;">2335</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/zinggen-ur-2857/skitouren/rundtour-um-die-schwarz-stoeckli-von-unterschaechen-7135/">802</a></td>
+<td style="text-align: center;">S-</td>
+<td style="text-align: center;">N, E, S</td>
+<td style="text-align: left;">Unterschächen, Post</td>
+<td style="text-align: center;">2.75</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">++</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hoch Fulen</td>
+<td style="text-align: center;">999</td>
+<td style="text-align: center;">2506</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/hoch-fulen-695/skitouren/von-unterschaechen-7133/">801a</a></td>
+<td style="text-align: center;">WS</td>
+<td style="text-align: center;">E, SE, SW</td>
+<td style="text-align: left;">Unterschächen, Post</td>
+<td style="text-align: center;">2.75</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+++</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Turnen</td>
+<td style="text-align: center;">1041</td>
+<td style="text-align: center;">2079</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/turne-turnen-2074/skitouren/von-zwischenflueh-1870/">205a</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">S</td>
+<td style="text-align: left;">Zwischenflüh, Post</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Wem die Tour zu kurz ist kann beim
+Aufstieg noch einen Abstecher zum <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/4116/ski_tour/5626">Abendberg</a>
+machen.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/4116/ski_tour/5626">Abendberg</a></td>
+<td style="text-align: center;">1041</td>
+<td style="text-align: center;">1851</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/turne-turnen-2074/skitouren/von-zwischenflueh-1870/">205a</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">SE, S, NW</td>
+<td style="text-align: left;">Zwischenflüh, Post</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">In Kombination mit dem <em>Turnen</em>
+lohnened.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Meniggrat</td>
+<td style="text-align: center;">1064</td>
+<td style="text-align: center;">1949</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/4156/ski_tour/3258">222a</a></td>
+<td style="text-align: center;">L+</td>
+<td style="text-align: center;">N, NW</td>
+<td style="text-align: left;">Zwischenflüh, Haueten</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Auch ab <em>Zwischenflüh, Post</em>
+machbar, z.B. in Kombination mit dem <em>Turnen</em>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Wiriehore</td>
+<td style="text-align: center;">1161</td>
+<td style="text-align: center;">2304</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/6168/ski_tour/3392">333b</a></td>
+<td style="text-align: center;">WS+</td>
+<td style="text-align: center;">N, W, NW</td>
+<td style="text-align: left;">Tiermatten, Wirtschaft</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Ein Abstecher auf den <em>Hohmad</em> kann
+sich lohnen.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Homad</td>
+<td style="text-align: center;">988</td>
+<td style="text-align: center;">1879</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/6168/ski_tour/3391">333a</a></td>
+<td style="text-align: center;">WS+</td>
+<td style="text-align: center;">N, NE, NW</td>
+<td style="text-align: left;">Riedli, Talstation Wiriehorn</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">In Kombination mit dem <em>Wiriehore</em>
+lohnend.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gurbsgrat</td>
+<td style="text-align: center;">988</td>
+<td style="text-align: center;">2274</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/3370/ski_tour/3282">331a</a></td>
+<td style="text-align: center;">WS+</td>
+<td style="text-align: center;">N, NE, E</td>
+<td style="text-align: left;">Riedli, Talstation Wiriehorn</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+++</td>
+<td style="text-align: left;">Zustieg aus Skigebiet
+<em>Wiriehorn</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cheibhore</td>
+<td style="text-align: center;">988</td>
+<td style="text-align: center;">2461</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/366/ski_tour/3262">330a</a></td>
+<td style="text-align: center;">ZS+</td>
+<td style="text-align: center;">N, NE, E</td>
+<td style="text-align: left;">Riedli, Talstation Wiriehorn</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">++++</td>
+<td style="text-align: left;">Zustieg aus Skigebiet
+<em>Wiriehorn</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hohniese</td>
+<td style="text-align: center;">988</td>
+<td style="text-align: center;">2454</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/258/ski_tour/3451">345c</a></td>
+<td style="text-align: center;">ZS-</td>
+<td style="text-align: center;">N, W, NW</td>
+<td style="text-align: left;">Riedli, Talstation Wiriehorn</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">++++</td>
+<td style="text-align: left;">Zustieg aus Skigebiet
+<em>Wiriehorn</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Wyssi Flue</td>
+<td style="text-align: center;">988</td>
+<td style="text-align: center;">2454</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/6151/ski_tour/7199">344a</a></td>
+<td style="text-align: center;">ZS-</td>
+<td style="text-align: center;">N, W</td>
+<td style="text-align: left;">Riedli, Talstation Wiriehorn</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">++++</td>
+<td style="text-align: left;">Zustieg aus Skigebiet
+<em>Wiriehorn</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Winterhore</td>
+<td style="text-align: center;">988</td>
+<td style="text-align: center;">2609</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2226/ski_tour/3396">341b</a></td>
+<td style="text-align: center;">S</td>
+<td style="text-align: center;">N, NE</td>
+<td style="text-align: left;">Riedli, Talstation Wiriehorn</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">++++</td>
+<td style="text-align: left;">Zustieg aus Skigebiet
+<em>Wiriehorn</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mariannehubel</td>
+<td style="text-align: center;">1227</td>
+<td style="text-align: center;">2156</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/8542/ski_tour/5200">237a</a></td>
+<td style="text-align: center;">L+</td>
+<td style="text-align: center;">N, NE</td>
+<td style="text-align: left;">Grimmialp, Hotel Spillgerten</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Bei sicheren Verhältnissen Abfahrt durch
+das Chelli lohnend.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Traumlücke</td>
+<td style="text-align: center;">1227</td>
+<td style="text-align: center;">2040</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/9286/ski_tour/5202">239a</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">N, NE, W, NW</td>
+<td style="text-align: left;">Grimmialp, Hotel Spillgerten</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rothore N-Grat</td>
+<td style="text-align: center;">1227</td>
+<td style="text-align: center;">2267</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/12141/ski_tour/7179">240a</a></td>
+<td style="text-align: center;">WS</td>
+<td style="text-align: center;">N, NE, S, NW</td>
+<td style="text-align: left;">Grimmialp, Hotel Spillgerten</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rothore</td>
+<td style="text-align: center;">1227</td>
+<td style="text-align: center;">2409</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/6124/ski_tour/3635">242a</a></td>
+<td style="text-align: center;">ZS+</td>
+<td style="text-align: center;">N, W, NW</td>
+<td style="text-align: left;">Grimmialp, Hotel Spillgerten</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Auf der Abfahrt lohnt sich ein Abstecher
+Richtung <em>Hinderi Spillgerte</em>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hinderi Spillgerte</td>
+<td style="text-align: center;">1227</td>
+<td style="text-align: center;">2475</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1843/ski_tour/3634">241a</a></td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">N, NE</td>
+<td style="text-align: left;">Grimmialp, Hotel Spillgerten</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rauflihore</td>
+<td style="text-align: center;">1227</td>
+<td style="text-align: center;">2323</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1475/ski_tour/973">315a</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">N, W</td>
+<td style="text-align: left;">Grimmialp, Hotel Spillgerten</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Bei sicheren Verhältnissen <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1475/ski_tour/7186">Abfahrt
+über die N-Seite</a> möglich.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bundergletti</td>
+<td style="text-align: center;">1201</td>
+<td style="text-align: center;">2100</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/bundergletti-8621/skitouren/von-der-margelibruecke-ueber-die-nw-seite-3592/">410a</a></td>
+<td style="text-align: center;">L+</td>
+<td style="text-align: center;">W, NW</td>
+<td style="text-align: left;">Adelboden, Margeli</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bunderspitz</td>
+<td style="text-align: center;">1201</td>
+<td style="text-align: center;">2546</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/bunderspitz-8546/skitouren/von-der-margelibruecke-ueber-vordere-bunder-und-die-s-seite-3591/">411a</a></td>
+<td style="text-align: center;">WS</td>
+<td style="text-align: center;">W, NW</td>
+<td style="text-align: left;">Adelboden, Margeli</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bunderchrinde</td>
+<td style="text-align: center;">1201</td>
+<td style="text-align: center;">2385</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2913/ski_tour/7052">412a</a></td>
+<td style="text-align: center;">WS</td>
+<td style="text-align: center;">W, NW</td>
+<td style="text-align: left;">Adelboden, Margeli</td>
+<td style="text-align: center;">2.25</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Grossstrubel</td>
+<td style="text-align: center;">1962</td>
+<td style="text-align: center;">3243</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/850/ski_tour/3284">735a</a></td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">N, W</td>
+<td style="text-align: left;">Engstligenalp</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">++</td>
+<td style="text-align: left;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/850/ski_tour/3593">Abfahrt
+durch das Ammertentäli nach Lenk</a> sehr lohnend.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Steghorn</td>
+<td style="text-align: center;">1962</td>
+<td style="text-align: center;">3146</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1869/ski_tour/3594">736c</a></td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">N, SW</td>
+<td style="text-align: left;">Engstligenalp</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">++</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Altels</td>
+<td style="text-align: center;">1934</td>
+<td style="text-align: center;">3629</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/45/ski_tour/3596">804a</a></td>
+<td style="text-align: center;">S</td>
+<td style="text-align: center;">NW</td>
+<td style="text-align: left;">Sunnbüel</td>
+<td style="text-align: center;">2.5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+++</td>
+<td style="text-align: left;">Fahrplan für letzten Bus nach Kandersteg
+beachten.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Balmhorn</td>
+<td style="text-align: center;">1934</td>
+<td style="text-align: center;">3698</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/126/ski_tour/3598">806a</a></td>
+<td style="text-align: center;">ZS-</td>
+<td style="text-align: center;">SW, NW</td>
+<td style="text-align: left;">Sunnbüel</td>
+<td style="text-align: center;">2.5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+++++</td>
+<td style="text-align: left;">Fahrplan für letzten Bus nach Kandersteg
+beachten.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rinderhorn</td>
+<td style="text-align: center;">1934</td>
+<td style="text-align: center;">3449</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/1503/ski_tour/3599">810a</a></td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">SW, W, NW</td>
+<td style="text-align: left;">Sunnbüel</td>
+<td style="text-align: center;">2.5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+++++</td>
+<td style="text-align: left;">Fahrplan für letzten Bus nach Kandersteg
+beachten.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Wyssi Flue</td>
+<td style="text-align: center;">1934</td>
+<td style="text-align: center;">2470</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/7831/ski_tour/5834">757a</a></td>
+<td style="text-align: center;">WS-</td>
+<td style="text-align: center;">E</td>
+<td style="text-align: left;">Sunnbüel</td>
+<td style="text-align: center;">2.5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">++++</td>
+<td style="text-align: left;">Fahrplan für letzten Bus nach Kandersteg
+beachten, <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/7831/ski_tour/6019">Abfahrt
+über die NW-Flanke</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Föisc</td>
+<td style="text-align: center;">1141</td>
+<td style="text-align: center;">2208</td>
+<td style="text-align: center;"><a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/foeisc-6203/skitouren/von-airolo-5370/">217d</a></td>
+<td style="text-align: center;">WS+</td>
+<td style="text-align: center;">W, NW</td>
+<td style="text-align: left;">Airolo</td>
+<td style="text-align: center;">2.5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">++</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<div class="sticky">
+<p><strong>Alle Angaben ohne Gewähr.</strong> Diese Seite wurde zuletzt
+am 26. Oktober 2022 aktualisiert. Das Projekt steht unter einer <a href="https://creativecommons.org/licenses/by/4.0/deed.de">Creative
+Commons Lizenz</a>.</p>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Angaben in Meter über Meer<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Angaben in Meter über Meer<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Angaben gemäss SAC Tourenportal<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Angaben in Stunden für die Strecke Aarau Bahnhof nach
+<em>Haltestelle</em> (ohne Rückreise) unter Berücksichtigung der
+schnellsten Verbindung gemäss SBB Fahrplan.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Angaben für die Strecke Aarau Bahnhof nach
+<em>Haltestelle</em> (ohne Rückreise) unter Berücksichtigung der
+schnellsten Verbindung gemäss SBB Fahrplan.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Angaben in Kategorien von 1 (sehr gering) bis 5 (sehr
+hoch). Touren der Kategorie 1 können - je nach Reisedauer - sogar in
+einem halben Tag absolviert werden, während auf Touren der Kategorie 5
+ein sehr gutes Zeitmanagement notwendig ist.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
